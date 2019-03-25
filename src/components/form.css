@@ -1,0 +1,49 @@
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+.delete {
+    color: red;
+}
+.check {
+    color: green;
+}
+.form {
+    background-color: white;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.item{
+    color: black;
+    font-size: 28px;
+}
+.form2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* width: 50%; */
+    align-items: center;
+}
+.text {
+    margin-left: 5px;
+    font-size: 28px;
+}
+.input {
+    margin: 10px;
+}
+.button {
+    border: none;
+    height: 30px;
+    width: 60px;
+    border-radius: 8px;
+    background-color: chartreuse;
+}
+.button:hover {
+    background: rgba(76, 175, 80, 0.3)
+}
